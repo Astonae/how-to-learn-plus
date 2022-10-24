@@ -1,0 +1,6 @@
+.two-columns__brief {
+  width: 175px;
+  flex-direction: row;
+  align-self: stretch;
+}
+
