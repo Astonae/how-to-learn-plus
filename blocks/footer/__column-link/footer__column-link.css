@@ -1,9 +1,16 @@
 .footer__column-link {
-  list-style-type: none;
+  color: white;
   line-height: 18px;
   font-size: 18px;
   font-weight: normal;
   display: flex;
-  justify-content: space-between;
   text-decoration: none;
+}
+
+.footer__column-link:link {
+  color: white;
+}
+
+.footer__column-link:hover {
+  color: red;
 }

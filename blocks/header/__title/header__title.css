@@ -2,10 +2,9 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: 600;
-  display: flex;
-  width: 730px;
-  flex-direction: column;
-  justify-content: space-around;
+  max-width: 730px;
+  margin: 0;
+  padding: 0;
   margin-left: 64px;
   z-index: 2;
 }

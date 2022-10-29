@@ -1,4 +1,6 @@
 .footer__column-links {
   margin: 20px auto 16px auto;
   padding: 0;
+  color: white;
+  list-style-type: none;
 }

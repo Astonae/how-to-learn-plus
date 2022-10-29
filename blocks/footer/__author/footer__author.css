@@ -1,17 +1,8 @@
 .footer__author {
   color: white;
-  margin: auto;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  text-decoration: none;
-  position: absolute;
-  left: 0px;
-  bottom: 18px;
-  margin-top: 18px;
 }
 
-.footer__author:hover {
-  color: red;
-}
 
