@@ -5,6 +5,6 @@
   margin: 0px auto 30px auto;
 }
 
-.two-columns__paragraph:nth-child(3) {
+.two-columns__paragraph:last-child {
   margin: 0;
 }

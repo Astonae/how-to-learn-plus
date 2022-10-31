@@ -13,19 +13,19 @@
   <meta name="author" content="Антон Шашкин">
 </head>
 
-<body>
-  <main class="page">
-    <header class="header">
-      <img class="logo logo_place_header" src="./images/logo_place_header.svg" alt="Логотип ЯП">
-      <h1 class="header__title">Научиться учиться</h1>
-      <p class="header__subtitle">
-        Какие современные и эффективные подходы к обучению вы можете использовать в звоей жизни?
-        <a class="header__link" href="#">Узнать &rarr;</a>
-      </p>
-      <img class="header__main-illustration" src="./images/header-image.png"
-        alt="Верный друг обязательно поднимет настроение!">
-      <div class="header__square-pic rotation"></div>
-    </header>
+<body class="page">
+  <header class="header">
+    <img class="logo logo_place_header" src="./images/logo_place_header.svg" alt="Логотип ЯП">
+    <h1 class="header__title">Научиться учиться</h1>
+    <p class="header__subtitle">
+      Какие современные и эффективные подходы к обучению вы можете использовать в звоей жизни?
+      <a class="header__link" href="#">Узнать &rarr;</a>
+    </p>
+    <img class="header__main-illustration" src="./images/header-image.png"
+      alt="Верный друг обязательно поднимет настроение!">
+    <div class="header__square-pic rotation"></div>
+  </header>
+  <main>
     <section class="description">
       <article class="two-columns">
         <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
@@ -152,9 +152,9 @@
         <p class="khan__author">Салман Хан</p>
         <h2 class="khan__title">Весь мир — школа</h2>
         <blockquote class="khan__quote">
-            Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир —
-            школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и
-            знания, которые приносят успех в школе, карьере и жизни.
+          Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир —
+          школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и
+          знания, которые приносят успех в школе, карьере и жизни.
         </blockquote>
         <p class="khan__quote-author">Салман Хан</p>
         <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
@@ -242,53 +242,51 @@
         </li>
       </ul>
     </section>
-    <footer class="footer">
-      <div class="footer__columns">
-        <div class="footer__column footer__column_content_copyright">
-          <img class="logo logo_place_footer" src="./images/logo_place_footer.svg" alt="Логотип ЯП в нижнем меню">
-          <p class="footer__author">&copy; Шашкин Антон</p>
-        </div>
-        <nav class="footer__column footer__column_content_info">
-          <h4 class="footer__column-heading">О Практикуме</h4>
-          <ul class="footer__column-links">
-            <li class="footer__column-item">
-              <a class="footer__column-link" href="#">Главная</a>
-            </li>
-            <li class="footer__column-item">
-              <a class="footer__column-link" href="#">Концепция</a>
-            </li>
-            <li class="footer__column-item">
-              <a class="footer__column-link" href="#">Наставники</a>
-            </li>
-          </ul>
-
-        </nav>
-        <nav class="footer__column footer__column_content_social">
-          <h4 class="footer__column-heading">Соцсети</h4>
-          <ul class="footer__column-links">
-            <li class="footer__column-item">
-              <a class="footer__column-link" href="#">
-                <img class="footer__social-icon" src="./images/instagram_color_white.svg"
-                  alt="Логотип Ютюб в нижнем меню">YouTube
-              </a>
-            </li>
-            <li class="footer__column-item">
-              <a class="footer__column-link" href="#">
-                <img class="footer__social-icon" src="./images/vk_color_white.svg"
-                  alt="Логотип Вконтакте в нижнем меню">Вконтакте
-              </a>
-            </li>
-            <li class="footer__column-item">
-              <a class="footer__column-link" href="#">
-                <img class="footer__social-icon" src="./images/tiktok-icon.svg"
-                  alt="Логотип ТикТок в нижнем меню">TikTok
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </footer>
   </main>
+  <footer class="footer">
+    <div class="footer__columns">
+      <div class="footer__column footer__column_content_copyright">
+        <img class="logo logo_place_footer" src="./images/logo_place_footer.svg" alt="Логотип ЯП в нижнем меню">
+        <p class="footer__author">&copy; Шашкин Антон</p>
+      </div>
+      <nav class="footer__column footer__column_content_info">
+        <h4 class="footer__column-heading">О Практикуме</h4>
+        <ul class="footer__column-links">
+          <li class="footer__column-item">
+            <a class="footer__column-link" href="#">Главная</a>
+          </li>
+          <li class="footer__column-item">
+            <a class="footer__column-link" href="#">Концепция</a>
+          </li>
+          <li class="footer__column-item">
+            <a class="footer__column-link" href="#">Наставники</a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="footer__column footer__column_content_social">
+        <h4 class="footer__column-heading">Соцсети</h4>
+        <ul class="footer__column-links">
+          <li class="footer__column-item">
+            <a class="footer__column-link" href="#">
+              <img class="footer__social-icon" src="./images/instagram_color_white.svg"
+                alt="Логотип Ютюб в нижнем меню">YouTube
+            </a>
+          </li>
+          <li class="footer__column-item">
+            <a class="footer__column-link" href="#">
+              <img class="footer__social-icon" src="./images/vk_color_white.svg"
+                alt="Логотип Вконтакте в нижнем меню">Вконтакте
+            </a>
+          </li>
+          <li class="footer__column-item">
+            <a class="footer__column-link" href="#">
+              <img class="footer__social-icon" src="./images/tiktok-icon.svg" alt="Логотип ТикТок в нижнем меню">TikTok
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
 </body>
 
 </html>
